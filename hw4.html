@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HW4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <br><br>
+        <h3>Place your order</h3>
+        <br>
+        <form action="" id="form">
+          <div class="form-group size" id="first">
+            <div class="null" id="null1"></div>
+            <input type="name" class="form-control" id="name" placeholder="Item Name *" name="name">
+          </div>
+          <br>
+          <div class="form-group size">
+            <div class="null" id="null2"></div>
+            <input type="quantity" class="form-control" id="quantity" placeholder="Quantity *" name="quantity">
+          </div>
+          <br>
+          <div class="form-group size">
+            <div class="null" id="null3"></div>
+            <div class="emailWrong" id="wrong"></div>
+            <input type="email" class="form-control" id="email" placeholder="Email *" name="email">
+          </div>
+          <br>
+          <textarea name="message" class="sizeBox" placeholder="Message" id="message"></textarea>
+          <br>
+          <form id="radioColor">
+                <input type="radio" name="radioColor" value="white" checked="checked"> White
+                <input type="radio" name="radioColor" value="red"> Red
+                <input type="radio" name="radioColor" value="green"> Green
+              </form>
+              <br>
+          <select id="selectSize">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+              </select>
+          <div class="form-group form-check">
+                <br>
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember" id="checkbox"> Free Shippping
+                </label>
+              </div>
+          <button type="submit" class="btn btn-primary" id="sumbit">Submit</button><br><p id="msg"></p><br>
+        </form>
+      </div>
+      <br><br>
+      <div class="title"><h3>Result</h3></div>
+      <br><br>
+      <div class="result" id="res">
+            
+            </div>
+  </body>
+  </html>

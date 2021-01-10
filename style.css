@@ -1,0 +1,64 @@
+.container{
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    border: 1px solid rgb(102, 136, 248);
+    background-color: rgb(245, 243, 243);
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    float: left;
+}
+
+.result{
+    position: absolute;
+    left: 975px;      
+}
+
+.title{
+    position: relative;
+    text-align: left; 
+    display: block;
+    margin-left: auto;
+    margin-right: 300px;
+    float: right;
+}
+
+.size{
+    height: 20px;
+    width: 400px
+}
+
+.sizeBox{
+    height: 100px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="radio"]{
+    margin: 0 5px 0 5px;
+  }
+
+.btn{
+    background-color: rgb(7, 7, 167);
+}
+
+.null{ 
+    position: absolute;
+    left: 470px;
+    color: red;
+}
+
+.emailWrong{
+    position: absolute;
+    left: 450px;
+    color: red;
+}
